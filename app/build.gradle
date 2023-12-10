@@ -28,9 +28,9 @@ android {
 publishing {
     publications {
         release(MavenPublication) {
-            groupId = 'org.gradle.pangolinads'
+            groupId = 'com.yuanli.ad'
             artifactId = 'pangolinads'
-            version = '1.0.7'
+            version = '1.0.9'
         }
     }
 }

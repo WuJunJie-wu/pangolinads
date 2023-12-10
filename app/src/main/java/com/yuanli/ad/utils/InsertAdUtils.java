@@ -9,7 +9,7 @@ import com.bytedance.sdk.openadsdk.AdSlot;
 import com.bytedance.sdk.openadsdk.TTAdNative;
 import com.bytedance.sdk.openadsdk.TTAdSdk;
 import com.bytedance.sdk.openadsdk.TTNativeExpressAd;
-import com.yuanli.listence.AdListence;
+import com.yuanli.ad.listence.AdListence;
 import com.yuanli.ad.constants.AdConstants;
 
 import java.util.List;

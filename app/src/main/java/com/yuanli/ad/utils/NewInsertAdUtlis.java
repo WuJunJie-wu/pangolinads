@@ -8,7 +8,7 @@ import com.bytedance.sdk.openadsdk.TTAdConstant;
 import com.bytedance.sdk.openadsdk.TTAdNative;
 import com.bytedance.sdk.openadsdk.TTAdSdk;
 import com.bytedance.sdk.openadsdk.TTFullScreenVideoAd;
-import com.yuanli.listence.AdListence;
+import com.yuanli.ad.listence.AdListence;
 import com.yuanli.ad.constants.AdConstants;
 
 import static com.bytedance.sdk.openadsdk.TTAdLoadType.PRELOAD;
