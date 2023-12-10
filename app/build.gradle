@@ -30,13 +30,13 @@ publishing {
         release(MavenPublication) {
             groupId = 'org.gradle.pangolinads'
             artifactId = 'pangolinads'
-            version = '1.0.4'
+            version = '1.0.5'
         }
     }
 }
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.aar'])
     implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation project(path: ':open_ad_sdk_library')
 
 
 }
