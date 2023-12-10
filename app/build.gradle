@@ -25,15 +25,19 @@ android {
         jvmTarget = '1.8'
     }
 }
-publishing {
-    publications {
-        release(MavenPublication) {
-            groupId = 'com.yuanli.ad'
-            artifactId = 'pangolinads'
-            version = '1.0.9'
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.yuanli.ad'
+                artifactId = 'pangolinads'
+                version = '1.1.1'
+            }
         }
     }
 }
+
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation project(path: ':open_ad_sdk_library')
