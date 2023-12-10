@@ -30,7 +30,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'org.gradle.pangolinads'
             artifactId = 'pangolinads'
-            version = '1.0.5'
+            version = '1.0.7'
         }
     }
 }
